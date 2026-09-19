@@ -1,0 +1,20 @@
+[project]
+name = "qwen-flash-calculator"
+version = "0"
+description = "Video memory and speed calculator for Qwen3.8-Flash-Next on llama.cpp, fitted to one measured machine"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+qwen-flash-calculator = "qwen_flash_calculator.app:main"
+
+[dependency-groups]
+dev = [
+    "pre-commit-uv",
+    "pytest",
+]
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"

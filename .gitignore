@@ -1,0 +1,28 @@
+logs/
+.idea/
+venv/
+temp/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv*/
+
+.tox/
+.pytest_cache/
+*.pyc
+.env
+*.*~
+**/__pycache__
+tryouts*.py
+.idea
+plans/
+
+# Cache files for HEAD request caching
+*.meta.json
